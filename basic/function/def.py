@@ -1,4 +1,5 @@
 # say_hello() # this will give an error. there is no hoisting here!
+# functions returns None if we don't return anything from them!
 
 # with default parameter
 def say_hello(name='jedi', emoji='=)'): # parameter
