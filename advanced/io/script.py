@@ -1,4 +1,4 @@
-file = open('/Users/farzan/projs/python/hello/io/file.txt')
+file = open('/Users/farzan/projs/python/hello/advanced/io/file.txt')
 
 print(file)
 print(file.read()) # you can read a file just once.
