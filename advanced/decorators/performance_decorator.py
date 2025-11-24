@@ -24,4 +24,6 @@ def long_time2():
         i * 5
 
 long_time()
-long_time2() # it takes too much longer than the first one because we actually put all the numbers in a list and then run the loop.
+# It takes too much longer than the first one because we actually put all the
+# numbers in a list and then run the loop (related to generators).
+long_time2()

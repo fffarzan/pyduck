@@ -1,5 +1,3 @@
-# A decorator super charges a function. It wraps another function and enchances it.
-
 def my_dec(func):
     def wrap_func():
         print('***************')
@@ -13,7 +11,7 @@ def hello():
 
 hello()
 
-# decorator is like of these calls:
+# Decorators is like of these calls:
 my_dec(hello())
 my_dec(hello)()
 
